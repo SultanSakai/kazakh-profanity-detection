@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "raw_data": "data/raw/kazakh_profanity_share.xlsx",
+  "label_corrections": "data/label_corrections.csv",
+  "processed_dir": "data/processed",
+  "model_dir": "models",
+  "results_dir": "results",
+
+  "split": {
+    "n_folds": 10,
+    "near_duplicate_jaccard": 0.6,
+    "near_duplicate_char_ngram": 3
+  },
+
+  "search_space": {
+    "normalize": [false, true],
+    "ngram_range": [[2, 4], [2, 5], [3, 5]],
+    "C": [0.5, 1, 2, 5, 10, 20]
+  },
+  "fixed_vectorizer": {
+    "analyzer": "char_wb",
+    "min_df": 2,
+    "sublinear_tf": true
+  },
+  "threshold_grid": {"start": 0.05, "stop": 0.95, "step": 0.01}
+}

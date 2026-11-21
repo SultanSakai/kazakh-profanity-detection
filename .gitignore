@@ -1,0 +1,7 @@
+# raw file from the course (contains un-scrubbed text); processed splits are committed instead
+data/raw/*.xlsx
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/

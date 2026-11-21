@@ -1,0 +1,45 @@
+{
+  "n_test": 304,
+  "n_test_label_0": 152,
+  "n_test_label_1": 152,
+  "threshold": 0.5,
+  "profanity_class": {
+    "precision": 0.9441,
+    "recall": 0.8882,
+    "f1": 0.9153
+  },
+  "accuracy": 0.9178,
+  "confusion_matrix": {
+    "TN": 144,
+    "FP": 8,
+    "FN": 17,
+    "TP": 135
+  },
+  "classification_report": {
+    "0 clean": {
+      "precision": 0.8944099378881988,
+      "recall": 0.9473684210526315,
+      "f1-score": 0.9201277955271565,
+      "support": 152.0
+    },
+    "1 profanity": {
+      "precision": 0.9440559440559441,
+      "recall": 0.8881578947368421,
+      "f1-score": 0.9152542372881356,
+      "support": 152.0
+    },
+    "accuracy": 0.9177631578947368,
+    "macro avg": {
+      "precision": 0.9192329409720714,
+      "recall": 0.9177631578947368,
+      "f1-score": 0.917691016407646,
+      "support": 304.0
+    },
+    "weighted avg": {
+      "precision": 0.9192329409720714,
+      "recall": 0.9177631578947368,
+      "f1-score": 0.917691016407646,
+      "support": 304.0
+    }
+  }
+}

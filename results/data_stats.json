@@ -1,0 +1,44 @@
+{
+  "raw_rows": 3061,
+  "raw_class_counts": {
+    "0": 1523,
+    "1": 1538
+  },
+  "rows_with_pii_scrubbed": 2,
+  "label_corrections": 8,
+  "exact_duplicates_removed": 22,
+  "near_duplicate_pairs": 307,
+  "near_duplicate_groups_size_gt1": 67,
+  "rows_in_near_duplicate_groups": 279,
+  "final_rows": 3039,
+  "final_class_counts": {
+    "0": 1519,
+    "1": 1520
+  },
+  "splits": {
+    "train": {
+      "rows": 2431,
+      "label_0": 1215,
+      "label_1": 1216
+    },
+    "val": {
+      "rows": 304,
+      "label_0": 152,
+      "label_1": 152
+    },
+    "test": {
+      "rows": 304,
+      "label_0": 152,
+      "label_1": 152
+    }
+  },
+  "source_counts": {
+    "pla": 2702,
+    "kas": 183,
+    "gis": 55,
+    "kit": 51,
+    "map": 40,
+    "fli": 8
+  },
+  "seed": 42
+}

@@ -1,0 +1,9 @@
+kazsandra_id,old_label,new_label,reason
+pla077406pla,0,1,"Contains explicit Kazakh obscene words (қотақ, ам); clear labeling error"
+pla012126pla,0,1,"'қотақбас' is an obscene insult; labeled 1 in 75+ other rows"
+pla017069pla,0,1,"'чорт' used as an insult; labeled 1 in 54 of 55 rows, so 1 for consistency"
+pla089169pla,0,1,"Stand-alone vulgar word 'ам' at the end of the comment; rule: stand-alone 'ам' = profanity"
+pla120443pla,0,1,"Calls a person 'есек' (donkey) as an insult; 'есек/ешек' insults are labeled 1 in 73 of 77 rows"
+pla063503pla,0,1,"Insult 'ешектің миын жегендер' (donkey-brain eaters) aimed at people; same rule as 'есек'"
+pla076042pla,1,0,"'амок ас' = the game Among Us transliterated, not the vulgar word 'ам'; no profanity"
+pla112781pla,1,0,"Talks about swearing ('боқтау') without using a profane word; rule: mentioning swearing is not profanity (same as a 0-labeled row with 'боқтау')"

@@ -17,7 +17,7 @@ It also shows the **probability of profanity** next to the label.
 Python 3.12 or newer. On Windows use `py` instead of `python`.
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/SultanSakai/kazakh-profanity-detection.git
 cd kazakh-profanity-detection
 python -m pip install -r requirements.txt
 
@@ -279,4 +279,5 @@ All 25 test errors are in `results/test_predictions.csv` (column `error`). Contr
 
 * Data: KazSAnDRA (Yeshpanov & Varol, LREC-COLING 2024, CC BY 4.0); profanity labels from the course file.
 * Libraries: scikit-learn, pandas, numpy, matplotlib.
-* AI assistance: an AI assistant (Claude, Anthropic) helped draft the code and this README. My own work: *(write here — e.g. checking the labels and corrections, choosing the labeling rules, running and verifying the experiments, the error analysis)*. I understand and can explain all submitted code.
+* AI assistance: an AI assistant (Claude, Anthropic) helped draft the code and this README.
+* My own work: reviewing the labeling rules and the 8 label corrections, running the pipeline, checking the results and the error analysis. I understand and can explain all submitted code.
